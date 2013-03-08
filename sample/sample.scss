@@ -1,0 +1,38 @@
+//= require abc
+//= require def
+
+// Single Line Comments
+
+// Multiple
+//     123
+// Comments
+
+/* 1-line Block Comments */
+
+/*
+ * Multiple-line
+ * Block Comments
+ */
+
+$foo: 100px;
+$bar: $foo * 2;
+
+@import "compass";
+@import "partial";
+
+body {
+  width: 960px;
+  margin: 0 auto;
+
+  @include hello-world(3, 2);
+
+  > .container {
+    padding: 10px;
+  }
+}
+
+// Lorem Ipsum
+// Dolar Sit Amet
+@mixin hello-world($arg1, $arg2) {
+  padding: 100px;
+}

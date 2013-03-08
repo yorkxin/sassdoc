@@ -1,0 +1,12 @@
+// ## A basic link style
+//
+// ### Example:
+//
+//     <a href="#">Text</a>
+a {
+  color: black;
+
+  &:hover {
+    color: red;
+  }
+}
